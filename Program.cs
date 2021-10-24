@@ -9,10 +9,10 @@ namespace EvenAndOdd
 
 
             Console.WriteLine("Podaj liczbę całkowitą");
-            var number1 = GetNumber();
-            var number2 = number1 % 2;
+            var number = GetNumber();
+            var remainder = number % 2;
 
-            if (number2 != 0)
+            if (remainder != 0)
             {
                 Console.WriteLine("Liczba jest nieparzysta");
             }
