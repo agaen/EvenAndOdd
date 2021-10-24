@@ -11,15 +11,14 @@ namespace EvenAndOdd
             Console.WriteLine("Podaj liczbę całkowitą");
             var number1 = GetNumber();
             var number2 = number1 % 2;
-            Console.WriteLine(number2);
 
-            if (number2 == 0)
+            if (number2 != 0)
             {
-                Console.WriteLine("Liczba jest parzysta");
+                Console.WriteLine("Liczba jest nieparzysta");
             }
             else
             {
-                Console.WriteLine("Liczba jest nieparzysta");
+                Console.WriteLine("Liczba jest parzysta");
             }
         }
         private static int GetNumber()
